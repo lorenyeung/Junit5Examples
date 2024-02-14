@@ -78,6 +78,7 @@
 
           <testFailureIgnore>true</testFailureIgnore>
           <useSystemClassLoader>false</useSystemClassLoader>
+          <argLine>${harnessArgLine}  @{argLine} </argLine>
           <!--<forkCount>2</forkCount>
           <reuseForks>true</reuseForks>
           <argLine>${surefireArgLine}</argLine>-->
